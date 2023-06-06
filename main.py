@@ -1,4 +1,4 @@
-#Fake fan question generator
+#Fake fan question generator. Nesting if statements
 music = input("What is your favorite music artist? ")
 if music != "Radiohead":
   print("Ugh, why? <3")
@@ -27,5 +27,3 @@ else:
             print("Love it!")
           else:
            print("Not my fav, but all of Radiohead is great")
-
-  
